@@ -29,4 +29,30 @@ To set up UnstopFrontend locally, follow these steps:
    VITE_AUTH0_CLIENT_ID=dek2MDznTGXxJ31lxTUFGuGo53A6YSee (example)
 
 [Refer: Auth0 React Interactive Quickstart](https://auth0.com/docs/quickstart/spa/react/interactive)
+## 4. **Application Screens**
+
+   Follow the routes below to access various application screens:
+
+   - **Public Facing Page**:  
+     Accessible without login. Displays app information and a call-to-action button.  
+     ```text
+     Route: /
+     ```
+
+   - **OAuth Middle Page**:  
+     Handles third-party authentication flow. Redirects users to authenticate securely.  
+     ```text
+     Route: /auth/callback
+     ```
+
+   - **Logged-In Page**:  
+     The dashboard for authenticated users, showing personalized content and navigation.  
+     ```text
+     Route: /status
+     ```
+
+   - **User Management Page**:  
+     Accessible to admins only. Allows managing users, roles, and permissions.  
+    
+
 
