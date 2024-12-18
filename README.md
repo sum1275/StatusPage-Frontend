@@ -20,8 +20,13 @@ To set up UnstopFrontend locally, follow these steps:
    npm run dev
    ```
 3. **Environment Variables**:
-VITE_BASE_URL=http://localhost:5000/api/status
-VITE_AUTH0_DOMAIN=dev-hrnip6gaswegqr1hm.us.auth0.com (example)
-VITE_AUTH0_CLIENT_ID=dek2MDznTGXxJ31lxTUFGuGo53A6YSee (example)
+
+   Add the following to your `.env` file:
+
+   ```env
+   VITE_BASE_URL=http://localhost:5000/api/status
+   VITE_AUTH0_DOMAIN=dev-hrnip6gaswegqr1hm.us.auth0.com (example)
+   VITE_AUTH0_CLIENT_ID=dek2MDznTGXxJ31lxTUFGuGo53A6YSee (example)
+
 [Refer: Auth0 React Interactive Quickstart](https://auth0.com/docs/quickstart/spa/react/interactive)
 
