@@ -38,21 +38,31 @@ To set up UnstopFrontend locally, follow these steps:
      ```text
      Route: /
      ```
+     
+![Plivo NotLoggedIn Public](https://github.com/user-attachments/assets/9cfeb94f-3c69-4cf9-a8e8-ae184569e868)
 
    - **OAuth Middle Page**:  
      Handles third-party authentication flow. Redirects users to authenticate securely.  
      ```text
      Route: /auth/callback
      ```
+![Plivo OAuth Screen](https://github.com/user-attachments/assets/7904c502-b9f1-493a-b3ff-ebba53718ef6)
+![oAuth screen 2](https://github.com/user-attachments/assets/5ac102c6-2f1f-4d5b-97d4-16f277228c9a)
+
 
    - **Logged-In Page**:  
      The dashboard for authenticated users, showing personalized content and navigation.  
      ```text
      Route: /status
      ```
+![Plivo LoggedIn](https://github.com/user-attachments/assets/da08fe81-6d66-4406-b56e-30c4035f3c30)
+![Add new issue](https://github.com/user-attachments/assets/abdddb37-97ef-4d43-9e62-ddcdaad799ba)
+![Add new status](https://github.com/user-attachments/assets/102767ff-7d49-4063-8497-46e237555b3d)
+
 
    - **User Management Page**:  
      Accessible to admins only. Allows managing users, roles, and permissions.  
     
+![User Managment  Page](https://github.com/user-attachments/assets/37f131a7-f908-440c-a9b5-b61a5fcc4831)
 
 
